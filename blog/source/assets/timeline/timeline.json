@@ -1,0 +1,20 @@
+{
+  "title": "Thiago Mata Resume",
+  "events": [{
+    "start_date": {
+      "year": 2002,
+      "month": 6,
+      "day": 1
+    },
+    "end_date": {
+      "year": 2008,
+      "month": 6,
+      "day": 1
+    },
+    "text": "Computer Science Degree at UnB - Universidade de Brasília",
+    "media": {
+      "url": "logo_unb.png",
+      "caption": "During gratuation, I could be part of some great projects like the <a href='http://www.cjr.org.br/'>CJR</a> and part of some research projects like the <a href='https://app.assembla.com/wiki/show/unbmatriculaweb'>   study about the Matricula Web </a>. My monography was about <a href='http://monografias.cic.unb.br/dspace/handle/123456789/133'> </a> that I did together with <a href='https://www.linkedin.com/in/renedelima/'> Renê Lima </a>."
+    }
+  }]
+}

@@ -1,0 +1,519 @@
+<!-- 1 -->
+<link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+<!-- 2 -->
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
+
+<div id="my-timeline"></div>
+
+<script>
+const timeline_json = {
+  "title": {
+    "text": {
+      "headline": "Thiago Mata Resume",
+      "text": "Biggest professional events in my career"
+    }
+  },
+  "events": [
+    /*
+     * Computer Science Degree at UnB - Universidade de Brasília
+     */
+    {
+      "start_date": {
+        "year": 2002,
+        "month": 6,
+        "day": 1
+      },
+      "end_date": {
+        "year": 2008,
+        "month": 6,
+        "day": 1
+      },
+      "text": {
+          "headline": "Computer Science Degree at UnB - Universidade de Brasília",
+          "text": "During gratuation, " +
+            "I could be part of some great projects like the " +
+            "<a href='http://www.cjr.org.br/'>CJR</a> and the " +
+            "LINF - UnB computing laboratory. Also I could realise some research projects like the " +
+            "<a href='https://app.assembla.com/wiki/show/unbmatriculaweb'>  study about the Matricula Web </a>. " +
+            "My monography was about creating of a " +
+            "<a href='http://monografias.cic.unb.br/dspace/handle/123456789/133'>tool for interactive reading hypertext to blind users</a> "+
+            "that I did together with <a href='https://www.linkedin.com/in/renedelima/'> Renê Lima </a>."
+      },
+      "media": {
+        "url": "logo_unb.png",
+        "alt": "UnB - Universidade de Brasília"
+      }
+    }
+    /*
+     * Master Degree - Universidade de Brasília
+     */
+    ,{
+      "start_date": {
+        "year": 2011,
+        "month": 1,
+      },
+      "end_date": {
+        "year": 2014,
+        "month": 1,
+      },
+      "text": {
+          "headline": "Master's degree in Biomedical Engineering UnB - Universidade de Brasília",
+          "text": "During gratuation, " +
+            "I could be part of some great projects like the " +
+            "<a href='https://app.assembla.com/wiki/show/agborder/'>AGBorder</a>. "+
+            "My master's thesis was about " +
+            "<a href='http://repositorio.unb.br/handle/10482/15036?mode=full'>"+
+            "Access to content of digital biomedical repositories through a web interface with 3D anatomical manikin" +
+            "</a>."
+      },
+      "media": {
+        "url": "logo_unb.png",
+        "alt": "UnB - Universidade de Brasília"
+      }
+    }
+    /*
+     * Master Degree - LACLO 2015
+     */
+    ,{
+      "start_date": {
+        "year": 2015,
+        "month": 10,
+        "day": 26
+      },
+      "text": {
+          "headline": "LACLO 2015 - Usability and Accessibility Criteria for 3D Web Application Evaluation",
+          "text": "We published this paper that describes part of a search result, after extensive "+
+            "research in published articles, magazine annals, scientific journal and " +
+            "recommendations of the W3C consortium. This research was exploratory with " +
+            "qualitative approach. The starting point was looking for recommendations on " +
+            "accessibility and usability for the Web that were particularly suitable for 3D " +
+            "Web applications. The demand stems from the medical field that uses such " +
+            "applications in different contexts: scientific, educational and can assist in the " +
+            "diagnosis and treatment indication. <a href='file:///home/thiagomata/Downloads/5827-7449-1-PB.pdf'>" +
+            "See more" +
+            "</a>." +
+            "This article received an honorable mention in this event."
+      },
+      "media": {
+        "url": "laclo_2015.png",
+        "caption": "CBIE and LACLO 2015"
+      }
+    }
+    /*
+     * Master Degree - SETI 2013
+     */
+    ,{
+      "start_date": {
+        "year": 2013,
+        "month": 5,
+        "day": 7
+      },
+      "text": {
+          "headline": "SETI 2013 - Accessibility for Web 3D Anatomical Manikins",
+          "text": "This paper evaluates the accessibility of virtual anatomical " +
+          "manikins 3D for Web. Was evaluated the hypothesis of a correlation " +
+          "between the complexity of the interfaces and lack of accessibility " +
+          "of the same. After assessed by the Guide criteria of " +
+          "Web Content Accessibility - WCAG 2.0, was possible to conclude that " +
+          "there is no evidence of a correlation between the complexity of these " +
+          "interface and it's accessibility. Furthermore, it became evident " +
+          "the lack of accessibility of these manikins."
+      },
+      "media": {
+        "url": "uri.jpg",
+        "caption": "First Symposium on Education and Inclusive Technology Regional Integrated University of High Uruguay and Missions"
+      }
+    }
+    /*
+     * Master Degree - PAHCE 2013
+     */
+    ,{
+      "start_date": {
+        "year": 2013,
+        "month": 5,
+        "day": 1
+      },
+      "text": {
+          "headline": "PAHCE 2013 - Definition of Computational Criteria to "+
+            "Evaluation of 3D Anatomical Web Manikins for Teaching in Health "+
+            "Science and for Medical Applications",
+          "text": "The use of virtual anatomical manikins has "+
+            "gained space in health science teaching. Its use helps in the study "+
+            "of anatomy and medical simulation of patients with diseases, acute "+
+            "illnesses and traumas. Recent technologies have made possible the "+
+            "rise of several virtual three-dimensional manikins for Web. " +
+            "For the best selection of these virtual manikins for teaching in "+
+            "health science or medical applications, we defined a set of "+
+            "evaluation criteria focused on computational context: "+
+            "(1) Software License and Terms of Use; "+
+            "(2) Interoperability and "+
+            "(3) Technology Independence. "+
+            "Moreover, were defined the methodologies of calculation of scores on "+
+            "each of these criteria. With the criteria defined, were assessed 9 "+
+            "anatomical manikins. As a result, the virtual mannequin Anatomography "+
+            "earned the highest score. " +
+            "<a href='http://www.pahce.org/PAHCESP7/P7ProgramallEN.htm?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJVGfRMU0TeOsHOadIym%2FgQ%3D%3D'>"+
+            "See more" +
+            "</a>."
+      },
+      "media": {
+        "url": "pahce.jpg",
+        "caption": "PAHCE  – Pan American Health Care Exchanges"
+      }
+    }
+    /*
+     * Master Degree - Extensio 2012
+     */
+    ,{
+      "start_date": {
+        "year": 2012,
+        "month": 12,
+      },
+      "text": {
+          "headline": "Extensio 2012 - Definition of criteria for evaluating 3D anatomical "+
+          "manikins on the web for education in healthcare or medical applications",
+          "text": "The use of virtual anatomical manikin has reached within the health science " +
+            "education. Its use helps in the study of anatomy and medical simulation in " +
+            "patients with pathologies, acute illnesses and injuries. Recent technologies " +
+            "have made possible the availability of several virtual three-dimensional " +
+            "anatomical manikins in the Web. The next step was the definition of " +
+            "criteria for evaluation and selection of these manikins with the focus " +
+            "on the education in healthcare or medical applications in order to " +
+            "assist in choosing the most appropriate manikin as each setting. For this, " +
+            "we collected some assessment frameworks related to the topic and then developed " +
+            "the evaluation criteria and scoring levels, and finally was evaluated the " +
+            "anatomic manikins found. " +
+            "<a href='https://periodicos.ufsc.br/index.php/extensio/article/view/27479?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BfGB%2F3DmFSLKWfYjRoNAPyQ%3D%3D'>" +
+            "See more" +
+            "</a>."
+      },
+      "media": {
+        "url": "extensio.png",
+        "caption": "Extensio: Electronic Journal of Extension"
+      }
+    }
+    /*
+     * ABEN Set 2002 to April 2003
+     */
+    ,{
+      "start_date": {
+        "year": 2002,
+        "month": 9,
+      },
+      "end_date": {
+        "year": 2003,
+        "month": 4,
+      },
+      "text": {
+          "headline": "Developer at ABEN Nacional",
+          "text": "My first job as web developer." +
+            "There, I could work with PHP, MySQL and Javascript."
+      },
+      "media": {
+        "url": "logo_aben.png",
+        "caption": "ABEN Nacional - Brazilian Association of Nursing"
+      }
+    }
+    /*
+     * M.S.D April 2003 to Feb 2004
+     */
+    ,{
+      "start_date": {
+        "year": 2003,
+        "month": 4,
+      },
+      "end_date": {
+        "year": 2004,
+        "month": 2,
+      },
+      "text": {
+          "headline": "Developer at M.S.D.",
+          "text": "Here we work on the development of computer based training " +
+          "using Macromedia Authoware, Adobe Flash, Javascript and ToolBook."
+      }
+    }
+    /*
+     * S.A.M.U. April 2005 to Set 2005
+     */
+    ,{
+      "start_date": {
+        "year": 2005,
+        "month": 4,
+      },
+      "end_date": {
+        "year": 2005,
+        "month": 9,
+      },
+      "text": {
+          "headline": "Developer at S.A.M.U. - Emergency Medical Service",
+          "text": "The S.A.M.U. was a critial call center software to deal with " +
+          "emergency calls and connect the pacient, ambuence driver and medical into one call." +
+          "There, I could be a front-end Sofware Developer working with Java Struts Taglibs, JSTL, CSS and JavaScript " +
+          "to create the Rich Internet Aplications of the Internal System of Ambulance Request Manager. " +
+          "This project was manager by the Data Processing Center - <a href='http://www.cdt.unb.br/'>CDT</a> of UnB - Universidade de Brasília " +
+          "having the SIEMENS as partner. " +
+          "The system provides integration of Call Center System, GPS and medical analysis."
+      },
+      "media": {
+        "url": "samu.jpg",
+        "caption": "S.A.M.U. - Emergency Medical Service. Call Center Software"
+      }
+    }
+    /*
+     * AgenciaClick Set 2005 to Out 2006
+     */
+    ,{
+      "start_date": {
+        "year": 2005,
+        "month": 9,
+      },
+      "end_date": {
+        "year": 2006,
+        "month": 11,
+      },
+      "text": {
+          "headline": "Senior Developer at AgênciaClick - Isobar",
+          "text": "Development of the Control System of Communication Actions - " +
+          "<a href='http://sistema2.planalto.gov.br/sisac'>SISAC</a> "+
+          "to the Presidency of the Republic of Brazil; " +
+          "Web PHP developer in <a href='http://visitbrasil.com/en/'>BrazilTour</a>; " +
+          "and Coordinator of the PHP " +
+          "Development Team in the " +
+          "<a href='http://rma.org.br/'>RMA</a> - Network of NGOs of the Atlantic Forest."
+      },
+      "media": {
+        "url": "https://www.youtube.com/watch?v=zzdWrhFypDU",
+        "caption": "AgênciaClick - Isobar"
+      }
+    }
+    /*
+     * Ministerio da Educacao - Nov 2006 to 2007
+     */
+    ,{
+      "start_date": {
+        "year": 2006,
+        "month": 11,
+      },
+      "end_date": {
+        "year": 2007,
+        "month": 9,
+      },
+      "text": {
+          "headline": "Developer at the <a href='https://mec.gov.br'>MEC</a> - " +
+          "Ministry of Education of Brazil",
+          "text": "Here I could work as Analyst and Database Administrator in the " +
+          "<a href='http://sistec.mec.gov.br'>Sistec</a> - " +
+          "System of Information and Supervision of Professional Education " +
+          "and Technology." +
+          "Alos, I have worked as developer in the " +
+          "<a href='http://simec.mec.gov.br'>Simec</a> - " +
+          "System Integrated Planning, Budget and Finance of the Ministry of Education."
+      },
+      "media": {
+        "url": "mec.jpg",
+        "alt": "MEC - Ministério da Educação"
+      }
+    }
+    /*
+     * Bancoob 09/2007 to 10/2008
+     */
+    ,{
+      "start_date": {
+        "year": 2007,
+        "month": 9,
+        "day": 3
+      },
+      "end_date": {
+        "year": 2008,
+        "month": 11,
+        "day": 3
+      },
+      "text": {
+          "headline": "Senior Systems Analyst at Bancoob - Sicoob",
+          "text": "Into the Bancoob - The Cooperative Bank of Brazil, " +
+          "I could work into the development of the " +
+          "System for transfer of credit portfolios using Microsoft SQL Server and Visual Basic. " +
+          "This system demands a safe management of a big volume of " +
+          "financial accounting and loans transactions."
+      },
+      "media": {
+        "url": "bancoob.jpg",
+        "caption": "Bancoob - Sicoob - The Cooperative Bank of Brazil"
+      }
+    }
+    ,{
+      "start_date": {
+        "year": 2009,
+        "month": 4,
+        "day": 8
+      },
+      "end_date": {
+        "year": 2012,
+        "month": 4,
+        "day": 9
+      },
+      "text": {
+          "headline": "Process Analyst at INEP",
+          "text": "Into the INEP, as public agent, " +
+          "I worked with Specification and development of softwares with high " +
+          "availability for millions of simultaneous users dealing with high data " +
+          "volumes. Also, worked with Specification and Development of many internal systems such as " +
+          "E-MEC System Fees; Analyst at Control System Task; Analyst at System " +
+          "of Control of Production and Escorted Delivery of Assessments."
+      },
+      "media": {
+        "url": "inep.jpg",
+        "caption": "INEP - Instituto Nacional de Pesquisas Educacionais"
+      }
+    }
+    ,{
+      "start_date": {
+        "year": 2012,
+        "month": 4,
+      },
+      "end_date": {
+        "year": 2013,
+        "month": 9,
+      },
+      "text": {
+          "headline": "Senior Coordinator at 954 Business Consulting",
+          "text": "Returning to the private sector, " +
+          "I worked with modeling of internal business processes in BPMN for " +
+          "estimating, specification, validation, approval and implementation " +
+          "of projects. " +
+          "Creating the list of desirable skills for each function in order to " +
+          "assist in the formalization of a career path in the company. "+
+          "Training for the analysis team to develop the capacity of estimation, "+
+          "process modeling, database modeling, risk analysis, "+
+          "requirements elicitation using prototype screens, survey, "+
+          "specification and modeling of various client systems."
+      },
+      "media": {
+        "url": "954.jpg",
+        "caption": "954 - Business Consulting"
+      }
+    }
+    ,{
+      "start_date": {
+        "year": 2013,
+        "month": 9,
+      },
+      "end_date": {
+        "year": 2014,
+        "month": 1,
+      },
+      "text": {
+          "headline": "Co-Founder of Otimicar",
+          "text": "In the <a href='http://otimicar.com/'>Otimicar</a>, " +
+          "I work with Specification and development " +
+          "of the first version of the OtimiCar server using Processes " +
+          "analysis, prototyping, database modeling, Java, Node.js, SOAP, REST "+
+          "and MongoDB database in BaaS."
+      },
+      "media": {
+        "url": "otimicar.png",
+        "caption": "Otimicar"
+      }
+    }
+    /*
+     * Adjetiva
+     */
+    ,{
+      "start_date": {
+        "year": 2014,
+        "month": 3,
+      },
+      "end_date": {
+        "year": 2014,
+        "month": 11,
+      },
+      "text": {
+          "headline": "Senior Programmer at Adjetiva",
+          "text": "Here, I work with development of the Mobile Application SAT-JF14," +
+          " winner of Cannes Lions 2014 in Cordova. "+
+          "Creation of the brand channel of Embratur, in Laravel. "+
+          "I work also into others projects like the development of mobile "+
+          "applications to find locations, " +
+          "events and points of interest associated with the World Cup "+
+          "in Laravel and Cordova; Development of educational games online, in Phaser; "+
+          "Development of desktop application multi platform in Node WebKit."
+      }
+    }
+    /*
+     * Adjetiva - Cannes
+     */
+    ,{
+      "start_date": {
+        "year": 2014,
+        "month": 8
+      },
+      "text": {
+          "headline": "Gold, Silver and Bronze Winner in Cannes Lions 2014",
+          "text": "Working as programmer in partnership with Loducca São Paulo "+
+            "in the campaign SAT-JF14.Record Collection Music Album - John Fursciante " +
+            "We won: <br/><ul>"+
+            "<li> <a href='https://issuu.com/lionsdailynews/docs/d4_turner/42'>Gold Lion</a> in Mobile; </li><br/>"+
+            "<li> <a href='https://issuu.com/lionsdailynews/docs/d3_turner/31'>Silver Lion</a> in PR; </li><br/>"+
+            "<li> <a href='https://issuu.com/lionsdailynews/docs/d3_turner/57'>Bronze Lion</a> in Promo & Activation; </li><br/>" +
+            "</ul>"+
+            "<a href='http://www.canneslions.com/winners/2014_winners/2014_winners_in_the_archive/'>" +
+              "See more" +
+            "</a>."
+      },
+      "media": {
+        "url": "laclo_2015.png",
+        "caption": "CBIE and LACLO 2015"
+      }
+    }
+    /*
+     * Ideia Big Data
+     */
+    ,{
+      "start_date": {
+        "year": 2014,
+        "month": 11,
+      },
+      "end_date": {
+        "year": 2017,
+        "month": 8,
+      },
+      "text": {
+          "headline": "Chief Technology Officer at Ideia Big Data",
+          "text": "Development of the Alexandria Digital, a product of Big Data "+
+          "for research, microtargeting, communication and statistics using "+
+          "clusters, distributed storage, distributed search engines, "+
+          "machine learning, functional programming and streaming running "+
+          "into a cloud computing."
+      }
+      ,"media": {
+        "url": "ideia.png",
+        "alt": "Ideia Big Data"
+      }
+    }
+    /*
+     * Ideia Big Data
+     */
+    ,{
+      "start_date": {
+        "year": 2017,
+        "month": 09,
+      },
+      "text": {
+          "headline": "Senior Data Enginer",
+          "text": "Working on the new version of the products of the company. " +
+          "Prototyping and testing new learning strategies. "
+      }
+      ,"media": {
+        "url": "sli.svg",
+        "alt": "SLI Systems"
+      }
+    }
+  ]
+}
+
+window.timeline = new TL.Timeline('timeline-embed', timeline_json);
+</script>
