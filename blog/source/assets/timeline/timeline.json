@@ -144,7 +144,7 @@
 			"group": "work",
 			"text": {
 				"headline": "Developer at ABEN Nacional",
-				"text": "My first job as web developer. There, we created the created the internal system of publication' evaluation and realise the maintain of the company website."
+				"text": "In the <a href='http://www.abennacional.org.br/site/'>Brazilian Association of Nurses</a> My first job as web developer. There, we created the created the internal system of publication' evaluation and realise the maintain of the company website."
 			},
 			"background": {
 				"url": "aben.jpg"
@@ -212,7 +212,7 @@
 			"important": true,
 			"text": {
 				"headline": "Senior Developer at AgênciaClick - Isobar",
-				"text": "Development of the Control System of Communication Actions - <a href='http://sistema2.planalto.gov.br/sisac'>SISAC</a> to the Presidency of the Republic of Brazil; Web PHP developer in <a href='http://visitbrasil.com/en/'>BrazilTour</a>; and Coordinator of the PHP Development Team in the <a href='http://rma.org.br/'>RMA</a> - Network of NGOs of the Atlantic Forest."
+				"text": "Working in the <a href='http://www.isobar.com/global/en/'>AgênciaClick - Isobar</a> we could development of the Control System of Communication Actions - <a href='http://sistema2.planalto.gov.br/sisac'> SISAC </a> to the Presidency of the Republic of Brazil; Web PHP developer in <a href='http://visitbrasil.com/en/'>BrazilTour</a>; and Coordinator of the PHP Development Team in the <a href='http://rma.org.br/'>RMA</a> - Network of NGOs of the Atlantic Forest."
 			},
 			"background": {
 				"url": "land-isobar.jpg"
