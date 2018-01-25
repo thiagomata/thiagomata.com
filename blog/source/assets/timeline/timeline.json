@@ -566,7 +566,7 @@
 			"tech": ["r-language"],
 			"text": {
 				"headline": "Introdution to R Course",
-				"text": "This <a href='xxxx'>course</a> xxxx. xxx. <a href='https://www.datacamp.com/statement-of-accomplishment/course/b31f303251b9c82372f6c57ab16f4238527c5ddb'> See certificate </a>."
+				"text": "This <a href='https://www.datacamp.com/courses/free-introduction-to-r'>course</a> presents the basics of the R language, this beautiful open source language, including factors, lists and data frame. <a href='https://www.datacamp.com/statement-of-accomplishment/course/b31f303251b9c82372f6c57ab16f4238527c5ddb'> See certificate </a>."
 			},
 			"media": {
 				"thumbnail": "course.png",
@@ -582,7 +582,7 @@
 			"tech": ["python", "data science"],
 			"text": {
 				"headline": "Intro to Python for Data Science Course",
-				"text": "This <a href='xxxx'>course</a> xxxx. xxx. <a href='https://www.datacamp.com/statement-of-accomplishment/course/b31f303251b9c82372f6c57ab16f4238527c5ddb'> See certificate </a>."
+				"text": "This <a href='https://www.datacamp.com/courses/intro-to-python-for-data-science'>course</a> focuses on Python specifically for data science. It teachs about powerful ways to store and manipulate data as well as cool data science tools to execute analyses. <a href='https://www.datacamp.com/statement-of-accomplishment/course/b31f303251b9c82372f6c57ab16f4238527c5ddb'> See certificate </a>."
 			},
 			"media": {
 				"thumbnail": "course.png",
