@@ -1515,10 +1515,10 @@
     z-index:-1;
     overflow:hidden;
     display:none;
-    filter:alpha(opacity=50);
-    -khtml-opacity:.5;
-    -moz-opacity:.5;
-    opacity:.5;
+    filter:alpha(opacity=30);
+    -khtml-opacity:.3;
+    -moz-opacity:.3;
+    opacity:.3;
     background:no-repeat center center;
     -webkit-background-size:cover;
     -moz-background-size:cover;

@@ -25,9 +25,9 @@ function readTextFile(file, callback) {
 }
 
 //usage:
-readTextFile("/Users/Documents/workspace/test.json", function(text){
-    var data = JSON.parse(text);
-    console.log(data);
+readTextFile("timeline.json", function(text){
+    window.dataTimeline = JSON.parse(text);
+    updateTimeline();
 })
 
 function updateTimeline() {
@@ -35,8 +35,8 @@ function updateTimeline() {
   var onlyWork       = document.getElementById("check-work").checked;
   var onlyAcademic   = document.getElementById("check-academic").checked;
   var resultTimeline = [];
-  resultTimeline.title = timeline_json.title;
-  var events = timeline_json.events;
+  resultTimeline.title = window.dataTimeline.title;
+  var events = window.dataTimeline.events;
   if( onlyImportants ) {
     var events = events.filter( e => e.important );
   }
@@ -49,5 +49,4 @@ function updateTimeline() {
   resultTimeline.events = events;
   window.timeline = new TL.Timeline('timeline-embed', resultTimeline );
 }
-updateTimeline();
 </script>

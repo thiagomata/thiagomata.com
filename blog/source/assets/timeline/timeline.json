@@ -1,20 +1,743 @@
 {
-  "title": "Thiago Mata Resume",
-  "events": [{
-    "start_date": {
-      "year": 2002,
-      "month": 6,
-      "day": 1
-    },
-    "end_date": {
-      "year": 2008,
-      "month": 6,
-      "day": 1
-    },
-    "text": "Computer Science Degree at UnB - Universidade de Brasília",
-    "media": {
-      "url": "logo_unb.png",
-      "caption": "During gratuation, I could be part of some great projects like the <a href='http://www.cjr.org.br/'>CJR</a> and part of some research projects like the <a href='https://app.assembla.com/wiki/show/unbmatriculaweb'>   study about the Matricula Web </a>. My monography was about <a href='http://monografias.cic.unb.br/dspace/handle/123456789/133'> </a> that I did together with <a href='https://www.linkedin.com/in/renedelima/'> Renê Lima </a>."
-    }
-  }]
+	"title": {
+		"text": {
+			"headline": "Thiago Mata Resume",
+			"text": "Biggest professional events in my career"
+		},
+		"media":{
+			"url": "thiago_face.jpg"
+		}
+	},
+	"events": [{
+			"start_date": {
+				"year": 2002,
+				"month": 6,
+				"day": 1
+			},
+			"end_date": {
+				"year": 2008,
+				"month": 6,
+				"day": 1
+			},
+			"techs": ["javascript", "php", "linux"],
+			"group": "scholar",
+			"important": true,
+			"text": {
+				"headline": "Computer Science Degree at UnB - Universidade de Brasília",
+				"text": "During gratuation, I could be part of some great projects like the <a href='http://www.cjr.org.br/'>CJR</a> and the LINF - UnB computing laboratory. Also I could realise some research projects like the <a href='https://app.assembla.com/wiki/show/unbmatriculaweb'>  study about the Matricula Web </a>. My monography was about creating of a <a href='http://monografias.cic.unb.br/dspace/handle/123456789/133'>tool for interactive reading hypertext to blind users</a> that I did together with <a href='https://www.linkedin.com/in/renedelima/'> Renê Lima </a>."
+			},
+			"background": {
+				"url": "unb_photo.png"
+			},
+			"media": {
+				"url": "logo_unb.png",
+				"thumbnail": "academic.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2011,
+				"month": 1
+			},
+			"end_date": {
+				"year": 2014,
+				"month": 1
+			},
+			"important": true,
+			"group": "scholar",
+			"techs": ["python", "matlab", "java", "d"],
+			"text": {
+				"headline": "Master's degree in Biomedical Engineering UnB - Universidade de Brasília",
+				"text": "During gratuation, I could be part of some great projects like the <a href='https://app.assembla.com/wiki/show/agborder/'>AGBorder</a>. My master's thesis was about <a href='http://repositorio.unb.br/handle/10482/15036?mode=full'>Access to content of digital biomedical repositories through a web interface with 3D anatomical manikin</a>."
+			},
+			"background": {
+				"url": "unb_photo.png"
+			},
+			"media": {
+				"url": "logo_unb.png",
+				"thumbnail": "academic.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2015,
+				"month": 10,
+				"day": 26
+			},
+			"tech": ["matlab", "latex"],
+			"group": "scholar",
+			"important": true,
+			"text": {
+				"headline": "LACLO 2015 - Usability and Accessibility Criteria for 3D Web Application Evaluation",
+				"text": "We published this paper that describes part of a search result, after extensive research in published articles, magazine annals, scientific journal and recommendations of the W3C consortium. This research was exploratory with qualitative approach. The starting point was looking for recommendations on accessibility and usability for the Web that were particularly suitable for 3D Web applications. The demand stems from the medical field that uses such applications in different contexts: scientific, educational and can assist in the diagnosis and treatment indication. <a href='file:///home/thiagomata/Downloads/5827-7449-1-PB.pdf'>See more</a>.This article received an honorable mention in this event."
+			},
+			"background": {
+				"url": "book3.jpg"
+			},
+			"media": {
+				"thumbnail": "academic.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2013,
+				"month": 5,
+				"day": 7
+			},
+			"tech": ["matlab", "javascript", "webgl"],
+			"group": "scholar",
+			"text": {
+				"headline": "SETI 2013 - Accessibility for Web 3D Anatomical Manikins",
+				"text": "This paper evaluates the accessibility of virtual anatomical manikins 3D for Web. Was evaluated the hypothesis of a correlation between the complexity of the interfaces and lack of accessibility of the same. After assessed by the Guide criteria of Web Content Accessibility - WCAG 2.0, was possible to conclude that there is no evidence of a correlation between the complexity of these interface and it's accessibility. Furthermore, it became evident the lack of accessibility of these manikins."
+			},
+			"background": {
+				"url": "book2.jpg"
+			},
+			"media": {
+				"thumbnail": "academic.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2013,
+				"month": 5,
+				"day": 1
+			},
+			"group": "scholar",
+			"tech": ["matlab", "webgl"],
+			"important": true,
+			"text": {
+				"headline": "PAHCE 2013 - Definition of Computational Criteria to Evaluation of 3D Anatomical Web Manikins for Teaching in Health Science and for Medical Applications",
+				"text": "The use of virtual anatomical manikins has gained space in health science teaching. Its use helps in the study of anatomy and medical simulation of patients with diseases, acute illnesses and traumas. Recent technologies have made possible the rise of several virtual three-dimensional manikins for Web. For the best selection of these virtual manikins for teaching in health science or medical applications, we defined a set of evaluation criteria focused on computational context. <a href='http://www.pahce.org/PAHCESP7/P7ProgramallEN.htm'>See more</a>."
+			},
+			"background": {
+				"url": "desk.jpg"
+			},
+			"media": {
+				"thumbnail": "academic.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2012,
+				"month": 12
+			},
+			"tech": ["matlab", "javascript", "webgl"],
+			"group": "scholar",
+			"important": true,
+			"text": {
+				"headline": "Extensio 2012 - Definition of criteria for evaluating 3D anatomical manikins on the web for education in healthcare or medical applications",
+				"text": "The use of virtual anatomical manikin has reached within the health science education. Its use helps in the study of anatomy and medical simulation in patients with pathologies, acute illnesses and injuries. Recent technologies have made possible the availability of several virtual three-dimensional anatomical manikins in the Web. The next step was the definition of criteria for evaluation and selection of these manikins with the focus on the education in healthcare or medical applications in order to assist in choosing the most appropriate manikin as each setting.<a href='https://periodicos.ufsc.br/index.php/extensio/article/view/27479'> See more</a>."
+			},
+			"background": {
+				"url": "handwriting.jpg"
+			},
+			"media": {
+				"thumbnail": "academic.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2002,
+				"month": 9
+			},
+			"end_date": {
+				"year": 2003,
+				"month": 4
+			},
+			"important": false,
+			"tech": ["php", "javascript", "mysql"],
+			"group": "work",
+			"text": {
+				"headline": "Developer at ABEN Nacional",
+				"text": "My first job as web developer. There, we created the created the internal system of publication' evaluation and realise the maintain of the company website."
+			},
+			"background": {
+				"url": "aben.jpg"
+			},
+			"media": {
+				"thumbnail": "work.png",
+				"url": "logo_aben.png",
+				"caption": "ABEN Nacional - Brazilian Association of Nursing"
+			}
+		}, {
+			"start_date": {
+				"year": 2003,
+				"month": 4
+			},
+			"group": "work",
+			"tech": ["javascript", "toolbook", "adobe flash", "authoware"],
+			"important": false,
+			"end_date": {
+				"year": 2004,
+				"month": 2
+			},
+			"text": {
+				"headline": "Developer at M.S.D.",
+				"text": "Here we work on the development of computer based training using Macromedia Authoware, Adobe Flash, Javascript and ToolBook."
+			},
+			"background": {
+				"url": "computer_studying.jpg",
+				"color": "rgb(60,30,0)"
+			},
+			"media": {
+				"thumbnail": "work.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2005,
+				"month": 4
+			},
+			"end_date": {
+				"year": 2005,
+				"month": 9
+			},
+			"group": "work",
+			"tech": ["java", "jstl", "css", "javascript", "struts"],
+			"important": true,
+			"text": {
+				"headline": "Developer at S.A.M.U. - Emergency Medical Service",
+				"text": "The S.A.M.U. was a critial call center software to deal with emergency calls and connect the pacient, ambuence driver and medical into one call.There, I could be a front-end Sofware Developer working with Java Struts Taglibs, JSTL, CSS and JavaScript to create the Rich Internet Aplications of the Internal System of Ambulance Request Manager. "
+			},
+			"media": {
+				"thumbnail": "work.png",
+				"url": "samu.jpg",
+				"caption": "S.A.M.U. - Emergency Medical Service. Call Center Software"
+			}
+		}, {
+			"start_date": {
+				"year": 2005,
+				"month": 9
+			},
+			"end_date": {
+				"year": 2006,
+				"month": 11
+			},
+			"group": "work",
+			"tech": ["php", "oracle", "postgres", "javascript"],
+			"important": true,
+			"text": {
+				"headline": "Senior Developer at AgênciaClick - Isobar",
+				"text": "Development of the Control System of Communication Actions - <a href='http://sistema2.planalto.gov.br/sisac'>SISAC</a> to the Presidency of the Republic of Brazil; Web PHP developer in <a href='http://visitbrasil.com/en/'>BrazilTour</a>; and Coordinator of the PHP Development Team in the <a href='http://rma.org.br/'>RMA</a> - Network of NGOs of the Atlantic Forest."
+			},
+			"background": {
+				"url": "land-isobar.jpg"
+			},
+			"media": {
+				"url": "isobar_white.png",
+				"thumbnail": "work.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2006,
+				"month": 11
+			},
+			"end_date": {
+				"year": 2007,
+				"month": 9
+			},
+			"important": false,
+			"group": "work",
+			"tech": ["php", "postgres", "javascript", "zend", "uml"],
+			"text": {
+				"headline": "Developer at the <a href='https://mec.gov.br'>MEC</a> - Ministry of Education of Brazil",
+				"text": "Here I could work as Analyst and Database Administrator in the <a href='http://sistec.mec.gov.br'>Sistec</a> - System of Information and Supervision of Professional Education and Technology.Alos, I have worked as developer in the <a href='http://simec.mec.gov.br'>Simec</a> - System Integrated Planning, Budget and Finance of the Ministry of Education."
+			},
+			"media": {
+				"url": "mec.png",
+				"thumbnail": "work.png",
+				"alt": "MEC - Ministério da Educação"
+			},
+			"background": {
+				"url": "kids-girl-pencil.jpg"
+			}
+		}, {
+			"start_date": {
+				"year": 2007,
+				"month": 9,
+				"day": 3
+			},
+			"end_date": {
+				"year": 2008,
+				"month": 11,
+				"day": 3
+			},
+			"important": true,
+			"tech": ["visual basic", "mssql server", "java", "uml"],
+			"group": "work",
+			"text": {
+				"headline": "Senior Systems Analyst at Bancoob - Sicoob",
+				"text": "Into the Bancoob - The Cooperative Bank of Brazil, I could work into the development of the System for transfer of credit portfolios using Microsoft SQL Server and Visual Basic. This system demands a safe management of a big volume of financial accounting and loans transactions."
+			},
+			"media": {
+				"thumbnail": "work.png",
+				"url": "sicoob.png"
+			},
+			"background": {
+				"url": "money.jpg"
+			}
+		}, {
+			"start_date": {
+				"year": 2009,
+				"month": 4,
+				"day": 8
+			},
+			"end_date": {
+				"year": 2012,
+				"month": 4,
+				"day": 9
+			},
+			"important": false,
+			"group": "work",
+			"tech": ["php", "oracle", "postgres", "java", "seam", "bpmn", "uml", "scrum", "zend"],
+			"text": {
+				"headline": "Process Analyst at INEP",
+				"text": "Into the INEP, as public agent, I worked with Specification and development of softwares with high availability for millions of simultaneous users dealing with high data volumes. Also, worked with Specification and Development of many internal systems such as E-MEC System Fees; Analyst at Control System Task; Analyst at System of Control of Production and Escorted Delivery of Assessments."
+			},
+			"media": {
+				"url": "inep.png",
+				"thumbnail": "work.png",
+				"caption": "INEP - Instituto Nacional de Pesquisas Educacionais"
+			},
+			"background": {
+				"url": "kidbook.jpg"
+			}
+		}, {
+			"start_date": {
+				"year": 2012,
+				"month": 4
+			},
+			"end_date": {
+				"year": 2013,
+				"month": 9
+			},
+			"important": false,
+			"group": "work",
+			"tech": ["php", "mssql", "postgres", "oracle", "bpmn", "uml", "scrum", "angular2"],
+			"text": {
+				"headline": "Senior Coordinator at 954 Business Consulting",
+				"text": "Returning to the private sector, I worked with modeling of internal business processes in BPMN for estimating, specification, validation, approval and implementation of projects. Creating the list of desirable skills for each function in order to assist in the formalization of a career path in the company. Training for the analysis team to develop the capacity of estimation, process modeling, database modeling, risk analysis, requirements elicitation using prototype screens, survey, specification and modeling of various client systems."
+			},
+			"media": {
+				"url": "954.png",
+				"thumbnail": "work.png",
+				"caption": "954 - Business Consulting"
+			}
+		}, {
+			"start_date": {
+				"year": 2013,
+				"month": 9
+			},
+			"end_date": {
+				"year": 2014,
+				"month": 1
+			},
+			"important": true,
+			"tech": ["java", "node.js", "rest", "soap", "mongodb", "uml", "bpmn", "scrum"],
+			"group": "work",
+			"text": {
+				"headline": "Co-Founder of Otimicar",
+				"text": "Otimicar it is an hardware more app solution that converts any car into a smart car. In the <a href='http://otimicar.com/'>Otimicar</a>, I worked with the specification and development of the first version of the OtimiCar server using Processes analysis, prototyping, database modeling, Java, Node.js, SOAP, REST and MongoDB database in BaaS."
+			},
+			"media": {
+				"url": "otimicar.png",
+				"thumbnail": "work.png",
+				"caption": "Otimicar"
+			}
+		}, {
+			"start_date": {
+				"year": 2014,
+				"month": 3
+			},
+			"end_date": {
+				"year": 2014,
+				"month": 11
+			},
+			"important": true,
+			"group": "work",
+			"tech": ["java", "node.js", "rest", "angular2", "laravel", "mongodb", "postgres", "uml", "bpmn", "scrum", "cordova", "node-webkit"],
+			"text": {
+				"headline": "Senior Programmer at Adjetiva",
+				"text": "Adjetiva was a tech company with center on the mobile and web interactions.Here, I could work with PHP, Cordova and Node.Js.Creation of the brand channel of Embratur, in Laravel. I work also into others projects like the development of mobile applications to find locations, events and points of interest associated with the World Cup in Laravel and Cordova; Development of educational games online, in Phaser; Development of desktop application multi platform in Node WebKit.The company was acquired by the Ideia Big Data in 2014."
+			},
+			"background": {
+				"url": "black-android.jpg"
+			},
+			"media": {
+				"thumbnail": "work.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2014,
+				"month": 6,
+				"day": 1
+			},
+			"important": true,
+			"group": "award",
+			"text": {
+				"headline": "Cannes Lions - Bronze Lion",
+				"text": "Winner of the <a href='https://issuu.com/lionsdailynews/docs/d4_turner/42'>Cannes Bronze Lion</a> in Promo & Activation category with the Mobile Application SAT-JF14."
+			},
+			"media": {
+				"thumbnail": "award.png"
+			},
+			"background": {
+				"url": "bronze-lion.jpg"
+			}
+		}, {
+			"start_date": {
+				"year": 2014,
+				"month": 6,
+				"day": 2
+			},
+			"important": true,
+			"group": "award",
+			"text": {
+				"headline": "Cannes Lions - Silver Lion",
+				"text": "Winner of the <a href='https://issuu.com/lionsdailynews/docs/d3_turner/31'>Cannes Silver Lion</a> in the PR category with the Mobile Application SAT-JF14."
+			},
+			"media": {
+				"thumbnail": "award.png"
+			},
+			"background": {
+				"url": "silver-lion.jpg"
+			}
+		}, {
+			"start_date": {
+				"year": 2014,
+				"month": 6,
+				"day": 3
+			},
+			"important": true,
+			"group": "award",
+			"text": {
+				"headline": "Cannes Lions - Gold Lion",
+				"text": "Winner of the <a href='https://issuu.com/lionsdailynews/docs/d4_turner/42'>Cannes Gold Lion</a> in the Mobile category with the Mobile Application SAT-JF14."
+			},
+			"background": {
+				"url": "gold-lion.jpg"
+			},
+			"media": {
+				"thumbnail": "award.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2014,
+				"month": 11
+			},
+			"end_date": {
+				"year": 2017,
+				"month": 8
+			},
+			"important": true,
+			"tech": ["scala", "php", "laravel", "aws", "oracle cloud", "postgres", "hadoop", "apache spark", "elasticsearch", "javascript", "uml", "bpmn", "scrum", "r-language"],
+			"group": "work",
+			"text": {
+				"headline": "Chief Technology Officer at Ideia Big Data",
+				"text": "Development of the Alexandria Digital, a product of Big Data for research, microtargeting, communication and statistics using clusters, distributed storage, distributed search engines, machine learning, functional programming and streaming running into a cloud computing."
+			},
+			"media": {
+				"thumbnail": "work.png",
+				"url": "ideia.png",
+				"alt": "Ideia Big Data"
+			}
+		}, {
+			"start_date": {
+				"year": 2017,
+				"month": 9
+			},
+			"important": true,
+			"group": "work",
+			"tech": ["java", "python", "google cloud platform", "apache beam", "apache spark", "rest", "javascript", "uml", "bpmn", "scrum"],
+			"text": {
+				"headline": "Senior Data Enginer",
+				"text": "Working on the new version of the products of the company. Prototyping and testing new learning strategies. "
+			},
+			"media": {
+				"thumbnail": "work.png",
+				"url": "slisystems.png",
+				"alt": "SLI Systems"
+			}
+		}, {
+			"start_date": {
+				"year": 2017,
+				"month": 12
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["python", "deep learning", "keras"],
+			"text": {
+				"headline": "Deep Learning in Python Course",
+				"text": "This hands-on course teachs python deep learning using Keras 2.0.<a href='https://www.datacamp.com/statement-of-accomplishment/course/b9a1948c5911be133e945549e9f2f9d176ee0440'> See certificate</a>."
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "datacamp.png",
+				"alt": "Course Certificate"
+			}
+		}, {
+			"start_date": {
+				"year": 2017,
+				"month": 11,
+				"day": 16
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["scala", "apache spark", "machine learning"],
+			"text": {
+				"headline": "Apache Spark 2.0 + Scala : DO Big Data Analytics & ML",
+				"text": "This course teachs with Hands-on Practices, Spark Streaming, Scala Setup and building real world applications. <a href='https://www.udemy.com/certificate/UC-U94HF85G'>See certificate</a>."
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "udemy.png"
+			}
+		},
+		{
+			"start_date": {
+				"year": 2017,
+				"month": 11,
+				"day": 13
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["google cloud platform", "Kubernetes", "cloud launcher"],
+			"text": {
+				"headline": "Google Cloud Plataform - Essentials",
+				"text": "This courses guides to a first hands-on experience with Google Cloud. Get comfortable with the basics, like spinning up a VM and configuring key infrastructure tools, through working with more advanced Stackdriver and Kubernetes concepts. <a href='https://google.qwiklabs.com/public_profiles/2bcf866e-f918-4b64-808b-7203c377e3e2'>See certificate</a>."
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "qwiklabs.png"
+			}
+		},
+		{
+			"start_date": {
+				"year": 2017,
+				"month": 11,
+				"day": 9
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["google cloud platform", "machine learning", "google pub/sub", "google dataflow", "google cloudsql", "google bigquery", "google cloud datalab", "google cloud datastore", "tensorflow"],
+			"text": {
+				"headline": "Google Cloud Platform Big Data and Machine Learning Fundamentals",
+				"text": "This <a href='https://www.coursera.org/learn/gcp-big-data-ml-fundamentals'>course</a> introduces participants to the Big Data and Machine Learning capabilities of Google Cloud Platform (GCP). It provides a quick overview of the Google Cloud Platform and a deeper dive of the data processing capabilities. <a href='https://www.coursera.org/account/accomplishments/certificate/U5KV9EFK9PGS'> See certificate </a>."
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "google-cloud.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2017,
+				"month": 11,
+				"day": 29
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["google cloud platform", "hadoop", "pig", "spark", "google cloud datastore", "machine learning", "google cloud dataproc", "python", "google bigquery"],
+			"text": {
+				"headline": "Leveraging Unstructured Data with Cloud Dataproc on Google Cloud Platform",
+				"text": "This <a href='https://www.coursera.org/learn/leveraging-unstructured-data-dataproc-gcp'>course</a> shows how to create and manage computing clusters to run Hadoop, Spark, Pig and/or Hive jobs on Google Cloud Platform.  Also shows how to access various cloud storage options from their compute clusters and integrate Google’s machine learning capabilities into their analytics programs, how to manage Dataproc Clusters using the Web Console and the CLI, and use cluster to run Spark and Pig jobs. It shows how to create iPython notebooks that integrate with BigQuery and storage and utilize Spark. Finally, it shows houw to integrate the machine learning APIs into data analysis. <a href='https://www.coursera.org/account/accomplishments/verify/EZABLESW7TNH'> See certificate </a>."
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "google-cloud.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2017,
+				"month": 8,
+				"day": 29
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["functional programming", "java streams", "java 9"],
+			"text": {
+				"headline": "Functional Programming with Streams in Java 9",
+				"text": "This <a href='https://www.udemy.com/functional-programming-with-streams-in-java-9'>course</a> introduces the key functional features of Java 8 and 9, and explain how they can be used to write code that is more expressive and easily amenable to parallelization. It discuss lambda functions and functional interface and also explores the predefined functional interfaces of the Java API, like Comparator and Runnable. Then, it shows how to use the full benefits of lambda functions with streams. Finally, it presents the details related to parallel execution, such as side-effect and the fork-join execution model. <a href='https://udemy-certificate.s3.amazonaws.com/pdf/UC-6UQK209P.pdf'> See certificate </a>."
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "udemy.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2017,
+				"month": 8
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["r-language"],
+			"text": {
+				"headline": "Introdution to R Course",
+				"text": "This <a href='xxxx'>course</a> xxxx. xxx. <a href='https://www.datacamp.com/statement-of-accomplishment/course/b31f303251b9c82372f6c57ab16f4238527c5ddb'> See certificate </a>."
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "datacamp.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2017,
+				"month": 5
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["python", "data science"],
+			"text": {
+				"headline": "Intro to Python for Data Science Course",
+				"text": "This <a href='xxxx'>course</a> xxxx. xxx. <a href='https://www.datacamp.com/statement-of-accomplishment/course/b31f303251b9c82372f6c57ab16f4238527c5ddb'> See certificate </a>."
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "datacamp.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2017,
+				"month": 4,
+				"day": 25
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["r-language", "markdown", "latex", "open-data"],
+			"text": {
+				"headline": "Reproducible Research",
+				"text": "This <a href='https://www.coursera.org/learn/reproducible-research'>course</a> from the Johns Hopkins University focuses on the concepts and tools behind reporting modern data analyses in a reproducible manner. Reproducible research is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them. <a href='https://www.coursera.org/account/accomplishments/verify/4HGZWSPKS4SQ'> See certificate </a>."
+			},
+			"background": { "url": "johns-hopkins.jpg" },
+			"media": {
+				"thumbnail": "course.png",
+				"url": "johns-hopkins.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2016,
+				"month": 11,
+				"day": 1
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["functional programming", "scala"],
+			"text": {
+				"headline": "Functional Programming Principles in Scala",
+				"text": "Thi course <a href='https://www.coursera.org/learn/progfun1'>course</a> of the École Polytechnique Fédérale de Lausanne presents the elements of the functional programming style and learn how to apply them usefully in daily programming tasks. It also develop a solid foundation for reasoning about functional programs, by touching upon proofs of invariants and the tracing of execution symbolically.<a href='https://www.coursera.org/account/accomplishments/verify/6PF6MMF4356U'> See certificate </a>."
+			},
+			"background": {
+				"url": "ecole.jpg"
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "ecole.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2016,
+				"month": 10,
+				"day": 22
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["r-language", "data visualization", "data exploration"],
+			"text": {
+				"headline": "Exploratory Data Analysis",
+				"text": "This <a href='https://www.coursera.org/learn/exploratory-data-analysis'>course</a> covers the essential exploratory techniques for summarizing data. These techniques are typically applied before formal modeling commences and can help inform the development of more complex statistical models. Exploratory techniques are also important for eliminating or sharpening potential hypotheses about the world that can be addressed by the data. <a href='https://www.coursera.org/account/accomplishments/verify/MSM9U9CDWYCU'> See certificate </a>."
+			},
+			"background": { "url": "johns-hopkins.jpg" },
+			"media": {
+				"thumbnail": "course.png",
+				"url": "johns-hopkins.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2016,
+				"month": 9,
+				"day": 1
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["r-language", "data cleaning"],
+			"text": {
+				"headline": "Getting and Cleaning Data",
+				"text": "This <a href='https://www.coursera.org/learn/data-cleaning'>course</a> covers obtaining data from the web, from APIs, from databases and from colleagues in various formats. It will also cover the basics of data cleaning and how to make data “tidy”. Tidy data dramatically speed downstream data analysis tasks. The course will also cover the components of a complete data set including raw data, processing instructions, codebooks, and processed data. Finally, it covers the basics needed for collecting, cleaning, and sharing data. <a href='https://www.coursera.org/account/accomplishments/verify/9ZUMB8XUB458'> See certificate </a>."
+			},
+			"background": { "url": "johns-hopkins.jpg" },
+			"media": {
+				"thumbnail": "course.png",
+				"url": "johns-hopkins.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2016,
+				"month": 6,
+				"day": 2
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["r-language", "probability", "data visualization"],
+			"text": {
+				"headline": "Introduction to Probability and Data",
+				"text": "This <a href='https://www.coursera.org/learn/probability-intro'>course</a> introduces the sampling and exploring data, as well as basic probability theory and Bayes' rule. It presents various types of sampling methods, and discuss how such methods can impact the scope of inference. A variety of exploratory data analysis techniques will be covered, including numeric summary statistics and basic data visualization using R and RStudio for lab exercises and a final project. <a href='https://www.coursera.org/account/accomplishments/certificate/F65Q5H5XA9XB'> See certificate </a>."
+			},
+			"background": {
+				"url": "duke.jpg"
+			},
+			"media": {
+				"thumbnail": "course.png",
+				"url": "duke.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2016,
+				"month": 5,
+				"day": 24
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["r-language", "markdown", "data analyses"],
+			"text": {
+				"headline": "The Data Scientist’s Toolbox",
+				"text": "This <a href='https://www.coursera.org/learn/data-scientists-tools'>course</a> gives an overview of the data, questions, and tools that data analysts and data scientists work with. <a href='https://www.coursera.org/account/accomplishments/verify/2WWGW253DNH3'> See certificate </a>."
+			},
+			"background": { "url": "johns-hopkins.jpg" },
+			"media": {
+				"thumbnail": "course.png",
+				"url": "johns-hopkins.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2011,
+				"month": 12
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["google cloud platform", "artifical intelligence"],
+			"text": {
+				"headline": "Advanced Track of Introduction to Artificial Intelligence",
+				"text": "This course present advanced topics in Artificial Intelligence (AI). It begin by defining the term \"software agent\" and discussing how software agents differ from programs in general. This course is focused on presents how to build and search graph data structures needed to create software agents, an approach that is useful for solving many problems in AI.  It also shows how to \"break down\" larger problems into a number of more specific, manageable sub-problems. It reviews the study of logic and conceptualize the differences between propositional logic, first-order logic, fuzzy logic, and default logic.  After learning about statistical tools commonly used in AI and about the basic symbol system used to represent knowledge, it focuses on artificial neural network and machine learning, which are essential components of computational and statistical methods, and theoretical computer science.  The course concludes with a study of the Turing machine and a discussion of the questionable claims that human thinking is a symbol manipulation."
+			},
+			"background": {
+				"url": "stanford.jpg"
+			},
+			"media": {
+				"url": "stanford.png",
+				"thumbnail": "course.png"
+			}
+		}, {
+			"start_date": {
+				"year": 2010,
+				"month": 6
+			},
+			"important": true,
+			"group": "course",
+			"tech": ["scrum"],
+			"text": {
+				"headline": "Scrum Master",
+				"text": "This <a href='https://www.scrumalliance.org/certifications/practitioners/certified-scrummaster-csm'>course</a> teachs how a Scrum Master can helps project teams properly use Scrum, increasing the likelihood of the project 's overall success. It presents the Scrum values, practices, and applications. The Scrum master must act as \"servant leaders,\" helping the rest of the Scrum team work together and learn the Scrum framework also protect them from both internal and external distractions. <a href='https: //www.scrumalliance.org/community/profile/tmata/'> See certificate </a>."
+			},
+			"background": {
+				"url": "workplace2.jpg"
+			},
+			"media": {
+				"url": "scrum-alliance2.png",
+				"thumbnail": "course.png"
+			}
+		}
+	]
 }
